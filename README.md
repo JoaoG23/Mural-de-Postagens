@@ -1,5 +1,5 @@
 # Fluxo de Estudos - Integrando Front e Back-end
-## Indice 📗
+## Indice 📗👨‍💻
 1. **Introdução**
 2. **Fluxo lógico**
 3. **Como Usar**
@@ -12,14 +12,14 @@ Emissão Inicial | 09/10/2021
 Vazio | Vazio
 
 ### Tecnologias Usados
-#### Front-end
+#### 🧑‍💻 No front-end
 
 ![Alt ou título da imagem](./public/assets/IconHtml.svg)
-![Alt ou título da imagem](./public/assets/IconCss.svg)
+![Alt ou título da imagem](./public/assets/IconCSS.svg)
 ![Alt ou título da imagem](./public/assets/IconJS.svg)
 ![Alt ou título da imagem](./public/assets/IconMaterialize.svg)
 
-#### Back-end
+#### 👥 No Back-end
 ![Alt ou título da imagem](./public/assets/IconNodejsj.svg)
 
 
@@ -54,8 +54,6 @@ Assim, o NODEjs responde o JS com apenas os dados, em seguida o JS pega os **Dad
 ![Alt ou título da imagem](./public/assets/test3.PNG)
 
 5. 🚀 Entre no navegador e digite "**localhost:3002**"
-
-![Alt ou título da imagem](./public/assets/test4.PNG)
 
 6. ⚠️📉📌 Agora, e só utlizar o portal de avisos.
 
