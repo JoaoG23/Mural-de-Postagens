@@ -18,14 +18,20 @@ module.exports = {
          this.postagens.push({ id:criadorId(), titulo, descricao });
     },
 
+    delPost( id ){
+
+        this.postagens.delete({ id , titulo, descricao })
+    },
+    
+
 }
 
 function criadorId(){
     return Math.random().toString(36).substr(2, 9);
 }
 
-// function cr(){
-//     let id  = 0
-//     let soma = (id + 1);
+// setInterval( function() {
+//     let id = 0;
+//     let soma = id++;
 //     id = soma;
-// }
+// } ,2000);

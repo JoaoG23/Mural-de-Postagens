@@ -20,7 +20,19 @@ router.post("/add",bodyParserJson, (req, resp) => {
 
     posts.novoPost(titulo, descricao);
     
-    resp.send("Postagem adicionada com sucesso! A RANA agradece .. ✌")
+    resp.send("Postagem adicionada com sucesso! A RANA agradece .. ✌");
+});
+
+router.delete("/del" , bodyParserJson , ( req , resp ) => {
+
+    let post = posts[req.params.id];
+    if (post) {
+        console.log(post);
+        posts.delPost( id );
+        resp.send("Opá você removeu! A RANA excluiu .. ✘");
+    } else {
+        console("Erro de Conexao !");
+    }
 });
 
 module.exports = router;

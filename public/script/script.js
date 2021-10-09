@@ -24,7 +24,7 @@ function atualizacaoPost() {
     // };
 
 
-    let url = "http://192.168.0.107:3002/api/lista";
+    let url = "http://localhost:3002/api/lista";
 
     fetch(url)
         .then(resposta => resposta.json())
@@ -37,7 +37,7 @@ function atualizacaoPost() {
             posts.forEach((post) => {
 
                 let postElemento = `
-                        <div id="${post.id}"class="card grey lighten-1">
+                        <div id="${post.id}" class="card orange lighten-2">
                             <div class="card-content ">
                                 <span class="card-title">${post.titulo}</span>
                                 <p>${post.descricao}</p>
@@ -62,7 +62,7 @@ function addPost() {
     console.log(descricao, titulo);
 
     let post = { titulo, descricao };
-    let url = "http://192.168.0.107:3002/api/add";
+    let url = "http://localhost:3002/api/add";
 
 
     let myHeaders = new Headers();
@@ -86,4 +86,5 @@ function addPost() {
             document.getElementById("titulo").value ='';
             document.getElementById("desc").value ='';
         })
+        
 }
