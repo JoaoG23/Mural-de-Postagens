@@ -28,8 +28,8 @@ Vazio | Vazio
 
    Iniciando, o este pequeno programa integra o front e o back-end usando
 o **fetch** do JSvanilla de forma estática.
-Ou seja o usuario manda uma requisição e recebe um arquivo preparado com HTML CSS JS, depois de carregado no navegador, o JS será resposável por tratar essa requisição para o NODEjs. 
-Assim, o NODEjs responde o JS com apenas os dados, em seguida o JS pega os **Dados** e adicionar para o usuário na página HTML.
+Ou seja o usuario manda uma requisição e recebe um arquivo preparado com **HTML CSS JS**, depois de carregado no navegador, o **JS** será responsável por tratar essa requisição para o **NODEjs**. 
+Assim, o **NODEjs** responde o **JS** com apenas os dados, em seguida o JS pega os **Dados** e adicionar para o usuário na página HTML.
 
 ### 2. Fluxo lógico 
 
