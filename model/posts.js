@@ -30,8 +30,3 @@ function criadorId(){
     return Math.random().toString(36).substr(2, 9);
 }
 
-// setInterval( function() {
-//     let id = 0;
-//     let soma = id++;
-//     id = soma;
-// } ,2000);

@@ -13,14 +13,27 @@ Vazio | Vazio
 
 ### Tecnologias Usados
 #### 🧑‍💻 No front-end
+**_HTML_**
 
 ![Alt ou título da imagem](./public/assets/IconHtml.svg)
+
+**_CSS_**
+
 ![Alt ou título da imagem](./public/assets/IconCSS.svg)
-![Alt ou título da imagem](./public/assets/IconJS.svg)
-![Alt ou título da imagem](./public/assets/IconMaterialize.svg)
+
+**_Javascript_**
+
+
+![Alt ou título da imagem](./public/assets/iconjavascript.svg)
+
+**_Framework CSS Materialize_**
+
+![Alt ou título da imagem](./public/assets/materialize.svg)
 
 #### 👥 No Back-end
-![Alt ou título da imagem](./public/assets/IconNodejsj.svg)
+**_NODE js_**
+
+![Alt ou título da imagem](./public/assets/nodeJS.svg)
 
 
 ### 1. 🚪 Introdução
